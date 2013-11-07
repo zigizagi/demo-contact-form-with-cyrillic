@@ -39,9 +39,9 @@ if(isset($_POST['submit']))
     <meta name="author" content="uphero">
     <title>Контактна форма</title>
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
