@@ -1,5 +1,5 @@
 <?php
-$to = "kazanlak6@gmail.com"; //имейла на който ще се пращат съобщенията
+$to = "mail@gmail.com"; //имейла на който ще се пращат съобщенията
 function alert($type, $mess)
 {
 echo '<div class="alert alert-'.$type.'">'.$mess.'</div>';
@@ -39,9 +39,9 @@ if(isset($_POST['submit']))
     <meta name="author" content="uphero">
     <title>Контактна форма</title>
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -58,6 +58,7 @@ if(isset($error)) {
         <input type="text" class="form-control" placeholder="Email" name="email" required autofocus>
         <input type="text" class="form-control" name="subject" placeholder="Тема" required>
         <textarea type="text" class="form-control" name="message" maxlength="999"placeholder="Съобщение" required></textarea>
+		<br>
         <button class="btn btn-lg btn-primary btn-block" name="submit" type="submit">Изпрати</button>
       </form>
 
