@@ -55,7 +55,7 @@ if(isset($error)) {
       <form class="form-signin" method="POST">
         <h2 class="form-signin-heading">Изпрати запитване</h2>
         <input type="text" class="form-control" placeholder="Вашето име" name="name" required autofocus>
-        <input type="text" class="form-control" placeholder="Email" name="email" required autofocus>
+        <input type="email" class="form-control" placeholder="Email" name="email" required autofocus>
         <input type="text" class="form-control" name="subject" placeholder="Тема" required>
         <textarea type="text" class="form-control" name="message" maxlength="999"placeholder="Съобщение" required></textarea>
         <button class="btn btn-lg btn-primary btn-block" name="submit" type="submit">Изпрати</button>
