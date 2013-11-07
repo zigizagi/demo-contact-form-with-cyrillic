@@ -1,5 +1,5 @@
 <?php
-$to = "kazanlak6@gmail.com"; //имейла на който ще се пращат съобщенията
+$to = "mail@gmail.com"; //имейла на който ще се пращат съобщенията
 function alert($type, $mess)
 {
 echo '<div class="alert alert-'.$type.'">'.$mess.'</div>';
